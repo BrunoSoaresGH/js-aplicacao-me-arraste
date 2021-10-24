@@ -1,0 +1,26 @@
+html {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+}
+
+#diagrama {
+    position: relative;
+    border: 2px dashed blue;
+    height: 600px;
+    overflow: hidden;
+}
+
+#caixa {
+    position: absolute;
+    width: 100px;
+    text-align: center;
+    border: 2px solid #0066ff;
+    background-color: #b3d9ff;
+    padding: 4px;
+    cursor: grab;
+    user-select: none;
+}
+
+#caixa-arrastando {
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.5);
+}
